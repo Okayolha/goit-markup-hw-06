@@ -433,8 +433,8 @@
         <div class="form-field">
           <label for="name">Ім'я</label>
           <div class="form-field-icon">
-            <input type="text" name="name" id="name" />
-            <svg class="icon" width="12" height="12">
+            <input type="text" name="name" id="name" class="modal-contact-input" />
+            <svg class=" icon" width="12" height="12">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
           </div>
@@ -442,8 +442,8 @@
         <div class="form-field">
           <label for="tel">Телефон</label>
           <div class="form-field-icon">
-            <input type="tel" name="tel" id="tel" />
-            <svg class="icon" width="12" height="12">
+            <input type="tel" name="tel" id="tel" class="modal-contact-input" />
+            <svg class=" icon" width="12" height="12">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </div>
@@ -451,8 +451,8 @@
         <div class="form-field">
           <label for="mail">Пошта</label>
           <div class="form-field-icon">
-            <input type="email" name="mail" id="mail" />
-            <svg class="icon" width="12" height="12">
+            <input type="email" name="mail" id="mail" class="modal-contact-input" />
+            <svg class=" icon" width="12" height="12">
               <use href="./images/icons.svg#icon-email-black"></use>
             </svg>
           </div>
@@ -461,14 +461,12 @@
           <label for="comment">Коментар</label>
           <textarea class="comment" name="comment" placeholder="Введіть текст" id="comment"></textarea>
         </div>
+
+        <!-- /* Чекбокс */ -->
         <div class="options-form-field">
-          <label>
+          <label class="label">
             <input class="options-checkbox" type="checkbox" name="checkbox" value="checkbox" id="checkbox" />
-            <span>
-              <svg class="icon-checkbox-box" width="16" height="15">
-                <use href="./images/icons.svg#icon-checkbox"></use>
-              </svg>
-            </span>
+            <span class="icon-checkbox-box"></span>
             <span class="icon-checkbox"></span>Погоджуюся з розсилкою та
             приймаю
             <a href="" class="clic">Умови договору</a>

@@ -891,6 +891,7 @@ address li:last-child {
 .form-field-icon:hover {
   fill: var(--button-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .comment {
   display: block;
